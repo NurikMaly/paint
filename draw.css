@@ -1,0 +1,62 @@
+
+button,input{
+    margin-right: 0.5%;
+    cursor:  pointer;
+}
+
+img{
+    cursor: pointer;
+    margin-right: 0.8%;
+}
+img:hover{
+    background-color: rgb(204, 195, 195);
+}
+
+input:hover{
+    background-color: rgb(204, 195, 195);
+
+}
+.menu{
+    margin: 0px;
+    width: 97%;
+    display: flex;
+    border:1px solid rgb(248, 248, 241);
+    background-color: rgb(240, 241, 241);
+}
+#draw_block{
+    width: 1300px;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+    cursor: crosshair;
+    float: left;
+    box-shadow: 0 0 8px black;
+}
+.fig{
+    position: relative;
+    left: 25%;
+    width: 300px;
+}
+.colours{
+    width: 200px;
+    position: relative;
+    float: right;
+    left: 22%;
+}
+.colours input{
+    width: 18px;
+    height: 18px;
+    border: 0.1px solid gray;
+    
+}
+button{
+    width: 5%;
+    height: 35px;
+    background-color: rgb(12, 134, 12);
+    border: 1px solid white;
+    border-radius: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+}
